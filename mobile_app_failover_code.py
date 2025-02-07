@@ -7,8 +7,8 @@ from time import sleep
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
 # Example Sync Gateway health-check endpoints (adjust these to match your environment)
-PRIMARY_URL = "https://b2el4ajtbbvm7z9z.apps.cloud.couchbase.com:4984/_ping"
-SECONDARY_URL = "https://ewat48fdlvqfczxo.apps.cloud.couchbase.com:4984/_ping"
+PRIMARY_URL = "https://XXXXXXXXXXXXXXXX.apps.cloud.couchbase.com:4984/_ping"
+SECONDARY_URL = "https://XXXXXXXXXXXXXXXX.apps.cloud.couchbase.com:4984/_ping"
 
 
 # Simple data structure to hold cluster info
