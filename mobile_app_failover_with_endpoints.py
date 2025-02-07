@@ -22,7 +22,7 @@ health_check_urls = {
 # Adjust the endpoint paths as needed for your environment.
 connection_urls = {
     "primary": "wss://XXXXXXXXXXXXXX.apps.cloud.couchbase.com:4984/primary",
-    "secondary": "wss://XXXXXXXXXXXXXX.apps.cloud.couchbase.com:4984/primary"
+    "secondary": "wss://XXXXXXXXXXXXXX.apps.cloud.couchbase.com:4984/secondary"
 }
 
 # Track which cluster is active
